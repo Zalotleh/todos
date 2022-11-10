@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"></head>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>ToDos</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="text-center text-light my-4">
+          <h1 class="mb-4">Todo List</h1>
+          <form class="search">
+            <input class="form-control m-auto" type="text" name="search" placeholder="search todos" />
+          </form>
+        </header>
+    
+        <ul class="list-group todos mx-auto text-light">
+          <li class="list-group-item d-flex justify-content-between align-items-center text-light">
+            <span>Learn Dates & Times in Javascript</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center text-light">
+            <span>Build a new project using Js and Django</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center text-light">
+            <span>apply for jobs</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+        </ul>
+    
+        <form class="add text-center my-4">
+          <label class="text-light">Add a new todo...</label>
+          <input class="form-control m-auto" type="text" name="add" />
+        </form>
+    
+    </div> 
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
